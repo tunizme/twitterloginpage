@@ -1,0 +1,178 @@
+.main {
+    height: 114.5vh;
+    display: flex;
+}
+
+
+.container-left {
+    width: 60.3%;
+    height: 100%;
+    background-color: black;
+    background-image: url('../img/lohp_1302x955.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-left svg {
+    fill: var(--white-color);
+    width: 380px;
+}
+
+.container-right {
+    padding: 16px;
+}
+
+.container-right-body {
+    padding: 20px;
+}
+
+.container-right-body svg {
+    fill: #d6d9db;
+    width: 45px;    
+}
+
+.text_header {
+    min-width: 100%;
+    line-height: 88px;
+    letter-spacing: -1.2px;
+    font-family: 'Work Sans', sans-serif;
+    color: #e7e9ea;
+}
+
+.text_header-happening{
+    font-size: 76px;
+    margin-bottom: 32px;
+    margin-top: 48px;
+}
+
+.text_header-join {
+    font-size: 32px;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+
+.box-login {
+    margin-bottom: 0px;
+}
+
+.create {
+    display: flex;
+    font-family: "Google Sans",arial,sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    width: 300px;
+    height: 40px;
+    background-color: var(--white-color);
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+.box-login a {
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+
+.container-right .box-login svg {
+    width: 16px;
+    fill: var(--black-color);
+    margin-right: 4px;
+}
+
+.box-login-or {
+    display: flex;
+    align-items: center;
+    margin: 12px 0;
+}
+
+.box-login-or-line {
+    background-color: #272a2d;
+    height: 0.1px;
+    width: 126px;
+}
+
+.box-login-or-text {
+    color: var(--white-color);
+    font-size: 15px;
+    line-height: 15px;
+    margin: 0 8px;
+}
+
+.create-by-numberphone-or-email {
+    background-color: #1d9bf0;
+    font-size: 14px;
+    color: var(--white-color);
+}
+
+.box-login-accept {
+    color: rgb(113, 118, 123);
+    font-size: 11px;
+    line-height: 12px;
+}
+
+.box-login-accept a {
+    color: rgb(29, 155, 240);
+    text-decoration: none;
+}
+
+.box-login-accept a:hover {
+    text-decoration:underline;
+}
+
+.box-login-footer {
+    margin-top: 72px;
+}
+
+.have-an-account {
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--white-color);
+}
+
+.login {
+    border: solid 1px rgb(67,81,92);
+    color: #1d9be8;
+    background-color: var(--black-color);
+    margin-top: 24px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin: 12px 0;
+}
+
+.footer a {
+    display: block;
+    margin: 4px 8px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    text-decoration: none;
+    font-size: 13px;
+    color: #71767b;
+}
+
+#source {
+    pointer-events: none;
+    cursor: default;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
